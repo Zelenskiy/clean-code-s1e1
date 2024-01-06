@@ -43,16 +43,16 @@
 }
 
 .todo {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 
-input,button{
-  outline:none;
+input, button {
+  outline: none;
 }
 
 .add-button,
@@ -159,14 +159,14 @@ li > label {
 
 /* Edit Task */
 .todo li input[type=text] {
-  display:none
+  display: none
 }
 
 .todo li.editmode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .todo li.editmode label {
-  display:none;
+  display: none;
 }
