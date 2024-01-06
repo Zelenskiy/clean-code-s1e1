@@ -47,11 +47,13 @@
   padding: 0px;
 }
 
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
 
-input, button {
+input, 
+button {
   outline: none;
 }
 
@@ -162,11 +164,11 @@ li > label {
   display: none;
 }
 
-.todo li.editmode input[type=text] {
+.todo li.edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.todo li.editmode label {
+.todo li.edit-mode label {
   display: none;
 }
